@@ -1,0 +1,179 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.sub-heading{               /* defaultnya dia h2 */
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+/* NAVIGATION BAR */
+.navbar{
+  padding: 0 0 100px 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem  ;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nav-item{
+  font-family: "Ubuntu";
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* TITLE SECTION */
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+#title .container-fluid{
+  padding-top: 3%;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  transform: rotate(25deg);
+  margin-left: 55px;
+  position: absolute;
+}
+
+/* FEATURES SECTION */
+#features{
+  text-align: center;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.text-feature{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.sub-feature{
+  color: #8f8f8f;
+  width: 80%;
+  margin: auto;
+}
+
+.feature-box{
+  padding-bottom: 7%;
+  padding-top: 7%;
+}
+
+.icon-feature{
+  color:#ef8172;
+}
+
+.icon-feature:hover{
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL FEATURE */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* PRESS */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-image{
+  width: 15%;
+  margin: 5px 15px 75px 15px;
+}
+
+/* PRICING */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.price{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* CALL TO ACTION */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.button-footer{
+  margin: 30px 7px auto 7px;
+}
+
+/* FOOTER */
+#footer{
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.social-icon{
+  margin: 20px 7px;
+}
+
+.copyright{
+  font-size: 10px;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+@media (max-width:1054px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
